@@ -1,4 +1,5 @@
 
+git clone https://github.com/play-with-docker/play-with-docker
 cd play-with-docker
 
 # Verify the Docker daemon is running
