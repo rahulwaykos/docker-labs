@@ -8,7 +8,7 @@ yum-config-manager --enable docker-ce-nightly
 
 yum-config-manager --enable docker-ce-test
 
-yum install docker-ce docker-ce-cli containerd.io -y
+yum install docker-ce docker-ce-cli containerd.io docker-compose -y
 
 systemctl daemon-reload
 systemctl enable docker --now
