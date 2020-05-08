@@ -1,6 +1,6 @@
 sh go.sh
 
-cd docker-labs
+cd docker_labs
 
 docker run hello-world
 
