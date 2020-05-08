@@ -1,9 +1,9 @@
-
+sh go.sh
 
 docker run hello-world
 
-# Load the IPVS kernel module. Because swarms are created in dind,
-# the daemon won't load it automatically
+# Load the IPVS kernel module.
+
 modprobe xt_ipvs
 
 # Ensure Docker daemon is running in swarm mode
@@ -14,6 +14,7 @@ docker pull franela/dind
 
 go mod vendor
 
+#Getting Docker-compose
 curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 chmod +x /usr/local/bin/docker-compose
