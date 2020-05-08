@@ -1,5 +1,7 @@
 sh go.sh
 
+cd docker-labs
+
 docker run hello-world
 
 # Load the IPVS kernel module.
