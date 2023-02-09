@@ -15,7 +15,7 @@ require (
 	github.com/docker/docker v1.4.2-0.20200309214505-aa6a9891b09c // indirect
 	github.com/docker/go-connections v0.3.0
 	github.com/docker/go-units v0.3.2
-	github.com/emicklei/go-restful v2.4.0+incompatible // indirect
+	github.com/emicklei/go-restful v2.16.0+incompatible // indirect
 	github.com/emicklei/go-restful-swagger12 v0.0.0-20170208215640-dcef7f557305 // indirect
 	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/go-ini/ini v1.30.0 // indirect
