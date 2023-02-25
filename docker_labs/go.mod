@@ -11,7 +11,7 @@ require (
 	github.com/beorn7/perks v0.0.0-20160804104726-4c0e84591b9a // indirect
 	github.com/containerd/containerd v1.0.0-beta.2
 	github.com/davecgh/go-spew v1.1.0 // indirect
-	github.com/docker/distribution v2.6.0-rc.1.0.20170726174610-edc3ab29cdff+incompatible // indirect
+	github.com/docker/distribution v2.8.0+incompatible // indirect
 	github.com/docker/docker v1.4.2-0.20200309214505-aa6a9891b09c // indirect
 	github.com/docker/go-connections v0.3.0
 	github.com/docker/go-units v0.3.2
